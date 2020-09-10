@@ -1,7 +1,7 @@
 /*
  Theme Name:   Astra Child
  Theme URI:    http://malan.nu/portfolio/astra-child/
- Description:  Astra Child Theme is based on Astra parent theme
+ Description:  Astra Child Theme
  Author:       Philip Malan
  Author URI:   http://malan.nu
  Template:     astra
@@ -12,6 +12,11 @@
  Text Domain:  astrachild
 */
 
-body {
-    background-color: aqua;
+
+
+.main-header-bar-wrap {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
 }
