@@ -18,5 +18,47 @@
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: black;
+    background-color: white;
+}
+
+@font-face { 
+font-family: MontDemo-ExtraLight; 
+src: url(localhost/3semester/portfolio/wp-content/themes/astra-child/fonts/MontDemo-ExtraLight.otf); 
+font-weight: light; 
+}
+
+@font-face { 
+font-family: MontDemo-Heavy; 
+src: url(localhost/3semester/portfolio/wp-content/themes/astra-child/fonts/MontDemo-Heavy.otf); 
+font-weight: Heavy; 
+}
+
+
+h1 {
+	font-family: 'MontDemo-Heavy', sans-serif;
+}
+
+h2 {
+	font-family: 'MontDemo-Heavy', sans-serif;
+}
+
+h3 {
+	font-family: 'MontDemo-Heavy', sans-serif;
+}
+
+
+p {
+	font-family: 'MontDemo-ExtraLight', sans-serif;
+}
+
+.header-main-layout-1 .ast-main-header-bar-alignment {
+    margin-left: none;
+}
+
+nav#site-navigation {
+    font-family: 'montdemo-heavy', sans-serif;
+}
+
+a.ast-custom-button-link {
+    font-family: 'montdemo-heavy', sans-serif;
 }
