@@ -51,14 +51,62 @@ p {
 	font-family: 'MontDemo-ExtraLight', sans-serif;
 }
 
+.elementor-container.elementor-column-gap-default {
+	font-family: 'MontDemo-ExtraLight', sans-serif;
+}
+
+
+
+
 .header-main-layout-1 .ast-main-header-bar-alignment {
     margin-left: none;
 }
 
 nav#site-navigation {
     font-family: 'montdemo-heavy', sans-serif;
+	font-size: 14px;
 }
 
 a.ast-custom-button-link {
     font-family: 'montdemo-heavy', sans-serif;
+	font-size: 14px;
 }
+
+
+.ast-button {
+    font-size: 14px;
+}
+
+.vp-portfolio__layout-elements-align-center .vp-filter__style-minimal {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: 'montdemo-heavy',sans-serif;
+}
+
+.vp-filter__style-minimal {
+    --vp-filter-minimal--items__padding-v: .7em;
+    --vp-filter-minimal--items__padding-h: 1em;
+    --vp-filter-minimal--items__font-size: .9em;
+    --vp-filter-minimal--items__font-weight: 600;
+    --vp-filter-minimal--items__line-height: 1.4;
+    --vp-filter-minimal--items__text-decoration: none;
+    --vp-filter-minimal--items__text-transform: uppercase;
+    --vp-filter-minimal--items__letter-spacing: .015em;
+    --vp-filter-minimal--items__color: inherit;
+    --vp-filter-minimal--items-hover__color: #ffc646;
+    --vp-filter-minimal--items-active__color: #ffc646;
+    --vp-filter-minimal--items-count__offset: 8px;
+    --vp-filter-minimal--items-count__font-size: .6em;
+    --vp-filter-minimal-transition-duration: var(--vp-interactive__transition-duration);
+    --vp-filter-minimal-transition-easing: var(--vp-interactive__transition-easing);
+    font-family: 'montdemo-heavy',sans-serif;
+}
+
+
+
+.vp-filter__style-minimal .vp-filter__item.vp-filter__item-active {
+    --vp-filter-minimal--items-active__color: #ffc646;
+    --vp-filter-minimal--items-hover__color: #ffc646;
+}
+
